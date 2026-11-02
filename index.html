@@ -1,33 +1,53 @@
 <!DOCTYPE html>
 <html lang='cs'>
-  <head>
-    <title>První stránka</title>
-    <meta charset='utf-8'>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/6/w3.css">
-        
-  </head>
-  <body>
-   <h1>Cmgpv</h1>
-   
-  
-   
 
-   <nav>
-   <ul>
-   <li><a href="index.html">Úvod</a></li>
-   <li><a href="tabulka.html">Tabulka</a></li>
-   <li><a href="seznamy.html">Seznamy</a></li>
-   <li><a href="https://www.cmgpv.cz/">CMG</a> </li>
-   </ul>
-   </nav>
+<head>
+  <title>První stránka</title>
+  <meta charset='utf-8'>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/6/w3.css">
+
+</head>
+
+<body>
+  <div class="w3-container w3-green">
+    <h1>CMGPV</h1>
+    <p>Cyrilometodějské gymnázium, základní škola a mateřská škola v Prostějově</p>
+  </div>
+
+  <div class="w3-container w3-red w3-padding-small">
+    <button class="w3-button w3-grey w3-round-large"><a href="tabulka.html">Tabulka</a></button>
+    <button class="w3-button w3-grey w3-round-large"><a href="seznamy.html">Seznamy</a></button>
+    <button class="w3-button w3-grey w3-round-large"><a href="https://www.cmgpv.cz/">CMGPV</a></button>
+  </div>
+
   <main>
-   <img  src="budova.PNG" alt="budova.PNG, 414kB" title="budova" height="357" width="478">
-  <p>Cyrilometodějské gymnázium, základní škola a mateřská škola v Prostějově (CMG) je 
-  církevní osmileté gymnázium, 2. stupeň základní školy a mateřská škola pro děti všech rodičů, 
-  kterým záleží na kvalitním vzdělání a křesťanské výchově jejich dětí. 
-  </p> 
-</main>
-<footer>Naposledy aktualizováno 11. 6. 2024
-</footer>
-  </body>
+
+    <div class="w3-grid w3-padding-32 w3-margin-left w3-centered" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:64px">
+
+      <div class="w3-card w3-padding-16 w3-margin-left" style="width:400px;max-width:100%">
+        <img src="budova.PNG" alt="budova.PNG, 414kB" title="budova" width="100%">
+        <div class="w3-container w3-grey">
+          <h3>Fotka školy</h3>
+        </div>
+      </div>
+
+      <div class="w3-card w3-padding-16" style="width:400px;max-width:100%">
+        <div class="w3-container w3-grey">
+          <h3>O škole</h3>
+          <p>Cyrilometodějské gymnázium, základní škola a mateřská škola v Prostějově (CMG) je
+            církevní osmileté gymnázium, 2. stupeň základní školy a mateřská škola pro děti všech rodičů,
+            kterým záleží na kvalitním vzdělání a křesťanské výchově jejich dětí.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </main>
+  <footer>
+    <div class="w3-container w3-grey w3-padding-small w3-bottom">
+      <p>© 11. 6. 2024 CMGPV</p>
+    </div>
+      </footer>
+</body>
+
 </html>
